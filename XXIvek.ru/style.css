@@ -1,0 +1,613 @@
+body{
+	background: repeat url("source/images/background1.png");
+}
+
+*{
+	margin: 0px;
+}
+
+#container{
+	margin: auto;
+	width: 100%;
+}
+
+header{
+	width: 100%;
+	margin: auto;
+	height: 210px;
+	background: repeat url("source/images/background1.png");
+}
+
+#header-container{
+	width: 1200px;
+	margin: auto;
+	height: 150px;
+}
+
+#header-container-logo{
+	width: 150px;
+	display: inline-block;
+	height: 150px;
+	float: left;
+}
+
+#header-container-logo > img{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+#header-container-content{
+	width: calc(1200px - 170px);
+	display: inline-block;
+	font-family: Century Gothic;
+	font-size: 17px;
+	text-align: left;
+	margin-left: 20px;
+	height: 150px;
+	float: left;
+}
+
+#header-container-content-info1{
+	width: 300.23px;
+	display: inline-block;
+	height: 150px;
+	float: left;
+
+}
+
+#header-container-content-info2{
+	width: calc(1030px - 321px);
+	display: inline-block;
+	height: 150px;
+	float: left;
+	margin-left: 20px;
+}
+
+#header-container-content-info-adres{
+	width: calc(40% - 40px);
+	height: 150px;
+	float: left;
+    display: inline-block;
+	text-align: center;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 40px;
+    margin-left: 50px;
+    padding-top: 45px;
+    text-align: left;
+    line-height: 28px;
+}
+
+#header-container-content-info-adres:before{
+	background-position: 0 0;
+    width: 26px;
+    height: 37px;
+    content: '';
+    position: absolute;
+    background: repeat url(../source/styles/img/pin.png);
+    background-size: 26px 37px;
+    left: 0;
+    top: 53px;
+}
+
+#header-container-content-info-phone{
+	width: calc(30% - 40px);
+	text-align: center;
+	float: left;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-left: 40px;
+    text-align: left;
+    line-height: 28px;
+}
+
+#header-container-content-info-phone:before{
+	background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    content: '';
+    position: absolute;
+    background: repeat url(../source/styles/img/phone.png);
+    background-size: 30px 30px;
+    left: 0;
+    top: 0;
+}
+
+#header-container-content-info-mail{
+	width: calc(30% - 40px);
+	text-align: center;
+	float: left;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding-left: 40px;
+    text-align: left;
+    line-height: 28px;
+}
+
+#header-container-content-info-mail:before{
+	background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    content: '';
+    position: absolute;
+    background: repeat url(../source/styles/img/email.png);
+    background-size: 30px 30px;
+    left: 0;
+    top: 0;
+}
+
+#header-container-menu{
+	width: 100%;
+	height: 60px;
+	background-color: #2e7dab;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+#header-container-menu-inner{
+	width: 1160px;
+	margin: auto;
+}
+
+#content-container{
+	width: 1200px;
+	margin: auto;
+	font-family: Century Gothic;
+}
+
+#content-container-navigation a{
+	color: #0f567f;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+#content-container-navigation a:hover{
+	color: #042233;
+	border-bottom: 1px solid #3d61a0;
+}
+
+#content-container-main{
+	width: 80%;
+	height: 1000px;
+	float: left;
+	display: inline-block;
+}
+
+#content-container-left{
+	width: 20%;
+	display: inline-block;
+	float: left;
+	color: white;
+}
+
+#content-container-left-inner{
+	background-color: #2e7dab;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+#content-container-info{
+	width: calc(80% - 30px);
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+}
+
+.main_page{
+	width: 100%;
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+}
+
+#content-container-info a{
+	color: #0f567f;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+#content-container-info a:hover{
+	color: #042233;
+	border-bottom: 1px solid #3d61a0;
+}
+
+#content-container-zayavka{
+	width: 1200px;
+	height: 150px;
+	background-color: #2e7dab;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.content-container-zayavka-text{
+	height: 150px;
+	width: 65%;
+	display: inline-block;
+	float: left;
+}
+
+.content-container-zayavka-text div{
+	padding: 50px;
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.content-container-zayavka-button{
+	height: 150px;
+	width: 35%;
+	float: left;
+	display: inline-block;
+}
+
+.content-container-zayavka-button div{
+	padding: 50px;
+}
+
+
+.button {
+  color: white;
+
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  margin-bottom: 3px;
+  border-radius: 5px;
+  background: #7f1818;
+  box-shadow: 0 -3px #731212 inset;
+  transition: 0.3s;
+  border-width: 0px;
+  border-style: none;
+  font: 700 15px Century Gothic;
+  width: 80%;
+  height: 50px;
+}
+
+.button:hover {
+  background: #731212;
+  text-decoration: none;
+}
+
+.button:active {
+  background: #590c0c;
+  box-shadow: 0 3px #731212 inset;
+  outline: none !important;
+  text-decoration: none;
+}
+
+#zayavka{ 
+	height: 480px;
+	width: 282px; 
+	margin: auto; 
+	border-radius: 5px;
+	display: none; 
+	background: #fff; 
+	z-index: 200; 
+	position: fixed;
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0; 
+	padding: 16px;
+}
+
+#zayavka label:not(.for_checkbox){
+	font-size: 16px;
+}
+
+#zayavka input:not(.checkbox){
+    background: #dbe8fe;
+    border-radius: 5px;
+    border: 1px solid #99b6db;
+    text-align: left;
+    width: 260px;
+    height: 30px;
+    margin: 5px auto;
+    font-size: 14px;
+    color: #003b4e;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#zayavka select{
+	width: 282px;
+	height: 34px;
+	background: #dbe8fe;
+    border-radius: 5px;
+    border: 1px solid #99b6db;
+}
+
+.for_checkbox{
+	font-size: 12px;
+}
+
+.zayavka_send{
+	font-family: Century Gothic;
+    color: #fff;
+    font-size: 18px;
+    background: #2e7dab;
+    padding: 9px 34px;
+    display: block;
+    margin: 10px auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    min-width: 250px;
+    height: 44px;
+}
+
+.zayavka_send:hover{
+	background: #1d6c99;
+	cursor: pointer;
+}
+
+#contacts-container{
+	font-family: Century Gothic;
+	width: 1200px;
+	margin: auto;
+	display: block;
+	border-top: 1px solid #2e7dab;
+}
+
+#contacts-container-info{
+	font-size: 20px;
+	width: 1150px;
+	height: auto;
+	padding-left: 50px;
+}
+
+#content-container-info-document{
+	display: inline-block;
+	width: 33%;
+	cursor: pointer;
+}
+
+#wrap{ 
+	display: none; 
+	opacity: 0.8;
+	position: fixed; 
+	left: 0; 
+	right: 0; 
+	top: 0;
+	bottom: 0; 
+	padding: 16px; 
+	background-color: rgba(1, 1, 1, 0.725); 
+	z-index: 100; 
+	overflow: auto; 
+	transition: 0.3s;
+} 
+
+#window, 
+#window2, 
+#window3{ 
+	height: 85vh;
+	width: 600px; 
+	margin: auto; 
+	border-radius: 5px;
+	display: none; 
+	background: #575757; 
+	z-index: 200; 
+	position: fixed; 
+	left: 0; 
+	right: 0; 
+	top: 0; 
+	bottom: 0; 
+	padding: 16px; 
+}
+
+.close{ 
+	float: right;
+	cursor: pointer;
+	width: 25px;
+	height: auto;
+} 
+
+#contacts-container-info-adres{
+	width: calc(40% - 40px);
+	float: left;
+	text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#contacts-container-info-adres:before{
+	background-position: 0 0;
+    width: 26px;
+    height: 37px;
+    content: '';
+    position: absolute;
+    background: repeat url(../source/styles/img/pin.png);
+    background-size: 26px 37px;
+    left: 0;
+    top: 8px;
+}
+
+#contacts-container-info-phone{
+	width: calc(30% - 40px);
+	float: left;
+	text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 56px;
+}
+
+#contacts-container-info-phone:before{
+	background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    content: '';
+    position: absolute;
+    background: repeat url(../source/styles/img/phone.png);
+    background-size: 30px 30px;
+    left: 0;
+    top: 15px;
+}
+
+#contacts-container-info-mail{
+	width: calc(30% - 40px);
+	float: left;
+	text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 56px;
+}
+
+#contacts-container-info-mail:before{
+	background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    content: '';
+    position: absolute;
+    background: repeat url(../source/styles/img/email.png);
+    background-size: 30px 30px;
+    left: 0;
+    top: 15px;
+}
+
+footer{
+	width: 100%;
+	margin-top: 50px;
+	height: 200px;
+	background-color: #2e7dab;
+	font-family: Century Gothic;
+}
+
+footer .container{
+	width: 1200px;
+	margin: auto;
+	height: 200px;
+}
+
+footer .container .footer-top{
+	padding-top: 10px;
+}
+
+footer .column1{
+	display: inline-block;
+	color: white;
+	float: left;
+}
+
+footer .column2{
+	color: white;
+	display: inline-block;
+	float: left;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+footer li{
+	padding: 10px;
+}
+
+.footer-contacts-info{
+	width: calc(1200px - 600px);
+	display: inline-block;
+	height: 150px;
+	float: left;
+	margin-left: 20px;
+	color: white;
+}
+
+#footer-contacts-info-adres{
+	width: calc(40% - 40px);
+	float: left;
+    display: inline-block;
+	text-align: center;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 40px;
+    margin-left: 50px;
+    padding-top: 45px;
+    text-align: left;
+    line-height: 28px;
+}
+
+#footer-contacts-info-adres:before{
+	background-position: 0 0;
+    width: 26px;
+    height: 37px;
+    content: '';
+    position: absolute;
+    background: repeat url(../source/styles/img/pin-w.png);
+    background-size: 26px 37px;
+    left: 0;
+    top: 53px;
+}
+
+#footer-contacts-info-phone{
+	width: calc(30% - 40px);
+	text-align: center;
+	float: left;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-left: 40px;
+    text-align: left;
+    line-height: 28px;
+}
+
+#footer-contacts-info-phone:before{
+	background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    content: '';
+    position: absolute;
+    background: repeat url(../source/styles/img/phone-w.png);
+    background-size: 30px 30px;
+    left: 0;
+    top: 0;
+}
+
+#footer-contacts-info-mail{
+	width: calc(30% - 40px);
+	text-align: center;
+	float: left;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding-left: 40px;
+    text-align: left;
+    line-height: 28px;
+}
+
+#footer-contacts-info-mail:before{
+	background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    content: '';
+    position: absolute;
+    background: repeat url(../source/styles/img/email-w.png);
+    background-size: 30px 30px;
+    left: 0;
+    top: 0;
+}
